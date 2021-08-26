@@ -17,3 +17,6 @@ Entity: É a representação da tabela no banco de dados
 ## Visual Studio - Adicionar recursos
 ### Criar Controller
 Clique com o botão direito > Adicionar Controller > API Controller Empty 
+
+## Conexão com o banco de dados
+No arquivo `appsettings.json` na linha `10` a `12` foi adicionado o path do banco de dados para fazer a conexão com o arquivo `JogoSqlServerRepository.cs`
