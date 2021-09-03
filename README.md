@@ -11,6 +11,9 @@ Entity: É a representação da tabela no banco de dados
 - IDE
 - Conhecimento em C# e .NET
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## Criar o projeto
 - Visual Studio
 - ASP.NET Core Web Application
