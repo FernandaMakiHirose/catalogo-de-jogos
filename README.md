@@ -11,14 +11,17 @@ Entity: É a representação da tabela no banco de dados
 - IDE
 - Conhecimento em C# e .NET
 
+## Path
+No arquivo `ApiCatalogoJogos.csproj` em `<DocumentationFile></DocumentationFile>` coloque o path do projeto clonado
+
 ## Dicas
-- O `guid` é usado nos métodos HTTP para gerar um id aleatório.
-- O `await` retorna uma lista.
-- `IDisposable` destrói o objeto.
-- Com o Middleware criado é possível adicionar mensagens de alerta ou erro para o Swagger.
+- O `guid` é usado nos métodos HTTP para gerar um id aleatório
+- O `await` retorna uma lista
+- `IDisposable` destrói o objeto
+- Com o Middleware criado é possível adicionar mensagens de alerta ou erro para o Swagger
 
 ## Banco de dados
-No arquivo `appsettings.json` foi adicionado o código: `"Default": "Data Source=MAKI\\MSSQLSERVER02;Initial Catalog=CatalogoJogos;Integrated Security=True;Connect Timeout=30"` para executar na sua máquina, substitua o código `MAKI\\MSSQLSERVER02` pelo seu path do banco de dados.
+No arquivo `appsettings.json` foi adicionado o código: `"Default": "Data Source=MAKI\\MSSQLSERVER02;Initial Catalog=CatalogoJogos;Integrated Security=True;Connect Timeout=30"` para executar na sua máquina, substitua o código `MAKI\\MSSQLSERVER02` pelo seu path do banco de dados
 
 ## Swagger
 - Cliquei com o botão direito no projeto > Propriedades > Suppress Warnings > Adicionei `1591`
