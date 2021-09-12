@@ -16,8 +16,8 @@ Entity: É a representação da tabela no banco de dados
 2) No arquivo `appsettings.json` em:
 >"Default": "Data Source=MAKI\\MSSQLSERVER02;Initial Catalog=CatalogoJogos;Integrated Security=True" 
 
-Substitua o path: `MAKI\\MSSQLSERVER02` pelo path do seu Microsoft SQL Server Management Studio
-3) Execute o projeto no Visual Studio, o projeto abrirá em: <br>
+Substitua o path: `MAKI\\MSSQLSERVER02` pelo path do seu Microsoft SQL Server Management Studio <br>
+3) Execute o projeto no Visual Studio, o projeto abrirá em: 
 >https://localhost:44314/swagger/index.html
 
 ## Dicas
