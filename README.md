@@ -11,8 +11,11 @@ Entity: É a representação da tabela no banco de dados
 - IDE
 - Conhecimento em C# e .NET
 
-## Path
-No arquivo `ApiCatalogoJogos.csproj` em `<DocumentationFile></DocumentationFile>` coloque o path do projeto clonado
+## Executar o projeto
+1) No arquivo `API-CatalogoJogos.csproj` em `<DocumentationFile></DocumentationFile>` coloque o path do seu computador 
+2) No arquivo `appsettings.json` em:
+>"Default": "Data Source=MAKI\\MSSQLSERVER02;Initial Catalog=CatalogoJogos;Integrated Security=True" 
+Substitua o path: `MAKI\\MSSQLSERVER02` pelo path do seu Microsoft SQL Server Management Studio
 
 ## Dicas
 - O `guid` é usado nos métodos HTTP para gerar um id aleatório
