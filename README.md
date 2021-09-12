@@ -15,10 +15,10 @@ Entity: É a representação da tabela no banco de dados
 1) No arquivo `API-CatalogoJogos.csproj` em `<DocumentationFile></DocumentationFile>` coloque o path do seu computador 
 2) No arquivo `appsettings.json` em:
 >"Default": "Data Source=MAKI\\MSSQLSERVER02;Initial Catalog=CatalogoJogos;Integrated Security=True" 
-3) Execute o projeto no Visual Studio, o projeto abrirá em:
->https://localhost:44314/swagger/index.html
 
 Substitua o path: `MAKI\\MSSQLSERVER02` pelo path do seu Microsoft SQL Server Management Studio
+3) Execute o projeto no Visual Studio, o projeto abrirá em:
+>https://localhost:44314/swagger/index.html
 
 ## Dicas
 - O `guid` é usado nos métodos HTTP para gerar um id aleatório
